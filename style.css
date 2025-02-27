@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: RobotoDraft, Roboto, "Helvetica Neue, Helvetica, Arial", sans-serif;
+}
+
+.form_container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    width: 100%;
+    background-color: #eff1f3;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form_outline{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px; 
+}
+
+.form_input{
+    margin: 20px;
+    border: 1px solid black;
+    border-width: 0px 1px 1px;
+    border-top-style: initial;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: rgb(227, 227, 227);
+    border-bottom-color: rgb(227, 227, 227);
+    border-left-color: rgb(227, 227, 227);
+    border-image: initial;
+}
+
+.bars{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+    
+    
+}
+
+.bar1{
+    
+    /* background-color: #fff;
+    background-color: #e9ebee; */
+    border-bottom: 3px solid #fff;
+    /* border-top: 2px solid #e9ebee; */
+    color: #555;
+    
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+    width: 50%;
+    border-top: 2px solid #0f9d58;
+
+}
+
+
+
+.bar2{
+    
+    background-color: #fff;
+    background-color: #e9ebee;
+    border-bottom: 3px solid #fff;
+    border-top: 2px solid #e9ebee;
+    color: #555;
+    color: #888;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+    width: 50%
+}
+
+form{
+    margin: 20px;
+}
+
+.username_password{
+    display: flex;
+    border: 2px solid black;
+    border-width: 1px;
+    border-radius: 5px;
+    
+    align-items: center;
+    border-color:  lightslategray;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+
+}
+
+.username_password_input{
+    border: none;
+    font-size: 16px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.fa-solid{
+    color: #888;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.remember{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+}
+
+.re{
+    display: flex;
+    gap: 5px;
+}
+
+.forgot{
+    color: #888;
+    font-weight: 600;
+}
+
+.sign_in{
+    align-items: center;
+    width: 450px;
+    padding: 10px 0; 
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #e9ebee;
+    background-color:  #0f9d58;
+    border: lightslategray;
+    border-radius: 5px;
+    
+}
+/* 
+.sign_in:hover{
+    cursor: pointer;
+} */
+
+.or{
+    
+    margin: 10px 0 20px 10%;
+    text-align: center;
+    width: 80%
+}
+
+.social_media_sign{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.social_media_accounts{
+    border: 1px solid black;
+    /* width: 80%; */
+    margin: auto;
+}
+
+.google{
+    display: inline-flex;
+    border-radius: 3px;
+    background-color: red;
+    border: 1px solid #c9453a;
+    overflow: hidden;
+    width: 20%;
+}
+.btn_text{
+    border-left: 1px solid black;
+    text-align: center;
+    margin: 5px 15px;
+    
+}
+.btn_text, .btn_icon{
+    display: inline-flex;
+    height: 100%;
+    
+}
+
+
+    /* background-color: #0f9d58; */
+
+/* 
+.social_media_accounts{
+    display: flex;
+} */
+/* .or span{
+    background: #fff;
+    color: #273239;
+    font-size: 14px;
+    padding: 0 10px;
+} */
+
+/* .social_media_accounts button{
+    
+    margin-left: 30px;
+    background-image: none;
+    margin-bottom: 10px;
+    max-width: 173px;
+    width: 50%;
+    color: #fff;
+}
+
+.google{
+
+    background-color: #dd4b39 !important;
+    border: 1px solid #c9453a;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    padding: 8px;
+    
+}
+
+.facebook{
+    background-color: blue !important;
+    border: 1px solid blue;
+    color: #fff;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.linkedin{
+    background-color: skyblue !important;
+    border: 1px solid skyblue;
+    color: #fff;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.github{
+    background-color: black !important;
+    border: 1px solid black;
+    color: #fff;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    justify-content: space-around;
+} */
+
+.strong{
+    color: green;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 11px;
+}
+
+.p_c{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
